@@ -1,0 +1,75 @@
+/* reset.css */
+
+/* Elimina márgenes y rellenos por defecto */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece una fuente base para todo el documento */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Elimina los bordes en los botones */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+
+/* Elimina el subrayado de los enlaces */
+a {
+  text-decoration: none;
+}
+
+/* Elimina el estilo de los campos de formulario en Safari */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Elimina los bordes por defecto de los formularios */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que las listas no tengan estilos predeterminados */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Establece el tamaño de las imágenes como máximo 100% de su contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Elimina el espacio extra en los elementos inline */
+hr {
+  margin: 0;
+}
+
+/* Configura el comportamiento de los campos de formulario */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Define el comportamiento de los elementos de formulario */
+button {
+  cursor: pointer;
+}

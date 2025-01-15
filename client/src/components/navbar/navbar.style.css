@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    background-color: #c13939;
+    color: #fff;
+    padding: 10px 12px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    top: 0;
+
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {}
